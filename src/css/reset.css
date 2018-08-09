@@ -1,0 +1,111 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, Images, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input { margin: 0; padding: 0; border: 0; outline: 0; background: transparent; }
+body { line-height: 1; background: #ffffff;}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+a { text-decoration: none; background: transparent; outline: 0; }
+a:hover, a:focus { text-decoration: none; }
+a:hover, a:active { outline: 0; }
+/* remember to define focus styles! */
+:focus { /*outline: 0;iScroll滑动会卡*/
+}
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+input { -webkit-appearance: none; }
+i{ font-style:normal}
+/*clearfix*/
+.clearfix:after { clear: both; content: "Matrix"; display: block; font-size: 0; height: 0; visibility: hidden; }
+/* *html .clearfix { height: 1%; }
+*+html .clearfix { height: 1%; } */
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+.clearfix { zoom: 1 }
+html>body .clearfix { overflow: hidden; }
+.clear { clear: both; height: 0px; line-height: 0px; font-size: 0px; overflow: hidden; }
+.floatbox { overflow: hidden; }
+* html .floatbox { display: table; width: 100%; }
+#ie_clearing { display: none; }/*
+.opacity { -moz-opacity: 0.65; filter:alpha(opacity=65); opacity: 0.65;} */
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+/* float */
+.l { float: left; }
+.r { float: right; }
+/* position */
+.rel { position: relative; }
+.abs { position: absolute; }
+/* display */
+.dn { display: none; }
+.di { display: inline; }
+.db { display: block !important }
+.dib { display: inline-block; }
+/* font-family */
+.fa { font-family: Arial; }
+.fh { font-family: "\9ED1\4F53"; }
+.fs { font-family: "\5B8B\4F53"; }
+.fw { font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", sans-serif; }
+/* font-style */
+.n { font-weight: normal; font-style: normal; }
+.b { font-weight: bold; }
+.i { font-style: italic; }
+/* font-size */
+.f0 { font-size: 0; }
+.f10 { font-size: 10px; }
+.f12 { font-size: 12px; }
+.f13 { font-size: 13px; }
+.f14 { font-size: 14px; }
+.f16 { font-size: 16px; }
+.f18 { font-size: 18px; }
+.f20 { font-size: 20px; }
+.f24 { font-size: 24px; }
+.f30 { font-size: 30px; }
+.f40{ font-size:40px;}
+/* text-align */
+.tc { text-align: center; }
+.tr { text-align: right; }
+.tl { text-align: left; }
+.tj { text-align: justify; }
+/* white-space */
+.nowrap { white-space: nowrap; }
+.ell { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+/* word-wrap */
+.bk { word-wrap: break-word; }
+/* cursor */
+.poi { cursor: pointer; }
+.def { cursor: default; }
+/* overflow */
+.ovh { overflow: hidden; }
+/* visibility */
+.vh { visibility: hidden; }
+.vv { visibility: visible; }
+/* zoom */
+.z { *zoom:1;
+}
+/*line*/
+.sl { margin: 1px 0; height: 1px; line-height: 1px; border-bottom: 1px #ccc solid; }
+.dl { margin: 1px 0; height: 1px; line-height: 1px; border-bottom: 1px #ccc dashed; }
+/*opacity*/
+.op60 { -moz-opacity: 0.60; filter: alpha(opacity=60); opacity: 0.60; }
+/*color*/
+.red, .RegMsgErr { color: #FF0000; }
+.green, .RegMsgOk { color: #006600; }
+.white { color: #fff; }
+.org{ color:#ea5515;}
+.green{ color:#9ac70e;}
+.black { color: #000; }
+.black1 {color: #333;}
+.black2 { color: #666; }
+.black3 { color: #999; }
+.fontColor {color: #18b494;}
+.bdColor {background-color: #f1f1f1;}
+.bgColor {background-color: #18b494;}
+.txt_indent{ text-indent:2em;}
+.el-button {padding: none !important;}
+

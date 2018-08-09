@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
-
 import { Layout } from 'antd';
-const { Header, Footer, Sider, Content } = Layout;
-// import Header from "../../components/header.jsx";
+import Slider from "../../components/Slider.jsx";
+const { Header, Footer, Content } = Layout;
 class Index extends Component {
     render() {
         return (
-           <div className="index">
-                <Layout>
-                    <Header>Header</Header>
-                    <Layout>
-                        <Sider>Sider</Sider>
-                        <Content>Content</Content>
-                    </Layout>
-                    <Footer>Footer</Footer>
-                </Layout>
-           </div>
+            <Header>
+                <Slider />
+            </Header>
         );
     }
 }
