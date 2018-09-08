@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import 'antd/dist/antd.css'
-import './css/reset.css';
-import './css/main.scss';
-import Index from "./views/index/index.jsx";
+import './assets/css/reset.css';
+import 'element-theme-default';
+import './assets/css/main.scss';
+// import Index from "./views/index/index.jsx";
+import Index from "./views/comment-app/index.jsx";
 class App extends Component {
     render() {
         return (
